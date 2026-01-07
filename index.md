@@ -20,38 +20,71 @@
 
 **Сцены:**
 - DayHome - реальный мир, обычный дом в вечерней атмосфере, пока что это стартовая точка игры где есть несколько диалоговых взаимодействий с предметами. Отсюда можно попасть через взаимодействие с кроватью в любой уровень кроме CarLevel.
-  <img src="images/Scenes/DayHome.png" alt="DayHome" width="700">
+  ![DayHome](images/Scenes/DayHome.png)
 - DreamHub - мир снов/фантазий, искаженный дом в фиолетовых тонах, здесь появляется активный компаньон - Dog который следует за игроком. Отсюда можно попасть через зеркало в NightmareHub, через предметы в уровни Снов и через взаимодействие с кроватью в любой уровень, а также в секретный уровень Car Level.
-  <img src="images/Scenes/DreamHub.png" alt="DreamHub" width="700">
+  ![DreamHub](images/Scenes/DreamHub.png)
 - NightmareHub - мир кошмаров/страхов, искаженный дом в красных тонах. Отсюда можно попасть через зеркало в DreamHub, через предметы в уровни Кошмаров.
-  <img src="images/Scenes/NightmareHub.png" alt="NightmareHub" width="700">
+  ![NightmareHub](images/Scenes/NightmareHub.png)
 - Elar - уровень с открытым миром, на данный момент сюда можно попасть только из редактора Unity. Здесь мир разделен на 9 сегментов, у каждого сегмента своя атмосфера и погода, но на данный момент как такого левел дизайна там нет, просто плоская земля:
   1. GardenOfAnger - Бурный вечер с грозой, молниями и порывистым ветром 
-  <img src="images/Elar/GardenOfAnger.png" alt="GardenOfAnger" width="500">
+  ![GardenOfAnger](images/Elar/GardenOfAnger.png)
   2. GardenOfElarion - Редкий полуденный свет с магическим мерцанием в воздухе 
-  <img src="images/Elar/GardenOfElarion.png" alt="GardenOfElarion" width="500">
+  ![GardenOfElarion](images/Elar/GardenOfElarion.png)
   3. GardenOfFear - Мрачная ночь с нагнетающей тьмой и холодной дымкой
-  <img src="images/Elar/GardenOfFear.png" alt="GardenOfFear" width="500">
+  ![GardenOfFear](images/Elar/GardenOfFear.png)
   4. GardenOfHope - Тёплый рассвет с мягким золотистым светом и пением птиц 
-  <img src="images/Elar/GardenOfHope.png" alt="GardenOfHope" width="500"> 
+  ![GardenOfHope](images/Elar/GardenOfHope.png) 
   5. GardenOfJoy - Яркий солнечный день с чистым небом и тёплым ветерком 
-  <img src="images/Elar/GardenOfJoy.png" alt="GardenOfJoy" width="500">
+  ![GardenOfJoy](images/Elar/GardenOfJoy.png)
   6. GardenOfSadness - Тихая полночь с лёгким дождём и плотным туманом 
-  <img src="images/Elar/GardenOfSadness.png" alt="GardenOfSadness" width="500">
+  ![GardenOfSadness](images/Elar/GardenOfSadness.png)
   7. GardenOfSerenity - Спокойный ясный день с мягкими облаками и лёгким бризом 
-  <img src="images/Elar/GardenOfSerenity.png" alt="GardenOfSerenity" width="500">
+  ![GardenOfSerenity](images/Elar/GardenOfSerenity.png)
   8. GardenOfStillnes - Безветренное утро с застывшим воздухом и лёгкой дымкой 
-  <img src="images/Elar/GardenOfStillness.png" alt="GardenOfStillness" width="500">
+  ![GardenOfStillness](images/Elar/GardenOfStillness.png)
   9. GardenOfWonder - Волшебная полночь со звёздным небом и светящимися частицами 
-  <img src="images/Elar/GardenOfWonder.png" alt="GardenOfWonder" width="500">
+  ![GardenOfWonder](images/Elar/GardenOfWonder.png)
   Игрок может попасть на любой из этих сегментов просто ходя по миру (они как и в любой Open World игре загружаются в процессе если игрок рядом) или через дебаг функцию телепортации. 
 - Car Level - гоночный уровень стиле ранера, игрок управляет Chevrolet Impala, едет вперед и пытается не попасть в аварию посредством маневрирования/дрифта. Машины на левой полосе уступают если мигать светом или подъехать слишком близко. Если проезжать близко мимо препятствий коеми выступают другие машины с вероятностью 50% появляется QTE из 2 клавиш если ты его прожимаешь машина буститься. Есть 3 уровня буста, которые ускоряют машинку (1 уровень - 110%, 2 уровень - 130%, 3 уровень - 170%), а если забуститься сверх этого машина попадает на 10 секунд в верхний уровень дороги где нету препятствий и находятся Lunoris Points в качестве награды. Уровень заканчивается когда проходит время таймера, сейчас это 1000 секунд для дебага.
- <img src="images/Scenes/CarLevel_1.png" alt="CarLevel_1" width="700">
- <img src="images/Scenes/CarLevel_2.png" alt="CarLevel_2" width="700">
+ ![CarLevel_1](images/Scenes/CarLevel_1.png)
+ ![CarLevel_2](images/Scenes/CarLevel_2.png)
+- **Nightmare Level** - уровень кошмара, скалистый пустырь в красных тонах с блэкаутом. Цель - дойти до телепорта и убить всех врагов. Враги - 2× Лёгкий враг + 1× Ghost
+  Боевая система: Light комбо (Быстрые лёгкие атаки), Heavy комбо (Медленные тяжёлые атаки), Уклонение (Сопровождается слоу-мо), Парирование (Сопровождается слоу-мо) и также 
+  комплексная система 
+  **Lucid Rush:** активируется при заполнении LucidMeter (0→100), +50 к LucidMeter за каждое удачное уклонение/парирование, при активации: замедление времени + 3 QTE с комбо, Каждое успешное QTE: +50% к урону (итого до +150%), Штраф - стан игрока на 2 секунды
+  ![NightmareLevel](images/Scenes/NightmareLevel.png)
+
 
 **Персонажи/Сущности:**
-- Lunoris/Lunora - главная героиня игры, у неё есть две формы одна. Реальная - Lunora, и призрачная - Lunoris
+- Lunoris/Lunora/Kurtam - главная героиня игры, у неё есть две формы одна. Реальная - Lunora, и призрачная - Lunoris, а также одна форма животного.
 - Dog - компаньон главной героини
 - Chevrolet Impala 1967 года - машина которой управляет игрок в гоночном уровне
-- 
+- Легкий враг - является хуманоидным плейсхолдером врага имеет небольшой урон и мало хп, получает случайное оружие при появлении
+- Сreature - более сильный противник, может атаковать вблизи и издалека луком имеет гораздо больше хп
+- Ghost - является плейсхолдером летающего врага
 
+
+**Механики:**
+- диалоговая система
+- контроллер игрока (гибридный, от 1 лица, от 3 лица)
+- контроллер игрока с боевыми механиками от внешней библиотеки и продвинутым Locomotion
+- реалистичный контроллер машины
+- система для процедурной и мануальной генерация дороги
+- система для интеракций
+- аниматор для кровати и кастсцены
+  
+
+**UI окна:**
+- главное меню 
+  ![MainMenu](images/UI/MainMenu.png)
+- окно паузы 
+  ![PauseMenu](images/UI/PauseMenu.png)
+- окно настроек (графика и звуки)
+  ![Settings_Graphics](images/UI/Settings_Graphics.png)
+  ![Settings_Sound](images/UI/Settings_Sound.png)
+- квестовая панель
+  ![QuestPanel](images/UI/QuestPanel.png)
+- панель ресурсов - включает в себя Loneliness Bar, Stress Bar, Echo Shard UI, Lucid Points UI
+  ![ResourcePanel](images/UI/ResourcePanel.png)
+- диалоговое окно
+  ![DialogWindow](images/UI/DialogWindow.png)
