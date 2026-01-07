@@ -240,31 +240,57 @@
 
 ## 🖥️ UI окна
 - Главное меню 
+
   ![MainMenu](images/UI/MainMenu.png)
+
 - Окно паузы 
+
   ![PauseMenu](images/UI/PauseMenu.png)
+
 - Окна настроек - графика и звуки
+
   ![Settings_Graphics](images/UI/Settings_Graphics.png)
+
   ![Settings_Sound](images/UI/Settings_Sound.png)
+
 - Квестовая панель
+
   ![QuestPanel](images/UI/QuestPanel.png)
+
 - Панель ресурсов - включает в себя Loneliness Bar, Stress Bar, Echo Shard UI, Lucid Points UI
+
   ![ResourcePanel](images/UI/ResourcePanel.png)
+
 - Диалоговое окно
+
   ![DialogWindow](images/UI/DialogWindow.png)
+
 - Бар Lucid Meter
+
   ![LucidMeter](images/UI/LucidMeter.png)
+
 - Бар HP
+
   ![HPBar](images/UI/HPBar.png)
+
 - Prompt панель - элемент на экране который показывает на какую кнопку нажать чтобы повзаимодействовать и с чем
+
   ![PromptPanel](images/UI/PromptPanel.png)
+
 - Выбор уровней
+
   ![LevelSelect](images/UI/LevelSelect.png)
+
 - Дебаг телепорт
+
   ![DebugTeleport](images/UI/DebugTeleport.png)
+
 - QTE окно
+
   ![QTEWindow](images/UI/QTEWindow.png)
+
 - UI машины - спидометры и т.д.
+
   ![CarUI](images/UI/CarUI.png)
 
 
