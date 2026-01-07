@@ -27,23 +27,23 @@
   <img src="images/Scenes/NightmareHub.png" alt="NightmareHub" width="700">
 - Elar - уровень с открытым миром, на данный момент сюда можно попасть только из редактора Unity. Здесь мир разделен на 9 сегментов, у каждого сегмента своя атмосфера и погода, но на данный момент как такого левел дизайна там нет, просто плоская земля:
   1. GardenOfAnger - Бурный вечер с грозой, молниями и порывистым ветром 
-  ![GardenOfAnger](images/Elar/GardenOfAnger.png)
+  <img src="images/Elar/GardenOfAnger.png" alt="GardenOfAnger" width="500">
   2. GardenOfElarion - Редкий полуденный свет с магическим мерцанием в воздухе 
-  ![GardenOfElarion](images/Elar/GardenOfElarion.png)
-  3. GardenOfFear - Мрачная ночь с нагнетающей тьмой и холодной дымкой \
-  ![GardenOfFear](images/Elar/GardenOfFear.png)
+  <img src="images/Elar/GardenOfElarion.png" alt="GardenOfElarion" width="500">
+  3. GardenOfFear - Мрачная ночь с нагнетающей тьмой и холодной дымкой
+  <img src="images/Elar/GardenOfFear.png" alt="GardenOfFear" width="500">
   4. GardenOfHope - Тёплый рассвет с мягким золотистым светом и пением птиц 
-  ![GardenOfHope](images/Elar/GardenOfHope.png) 
+  <img src="images/Elar/GardenOfHope.png" alt="GardenOfHope" width="500"> 
   5. GardenOfJoy - Яркий солнечный день с чистым небом и тёплым ветерком 
-  ![GardenOfJoy](images/Elar/GardenOfJoy.png)
+  <img src="images/Elar/GardenOfJoy.png" alt="GardenOfJoy" width="500">
   6. GardenOfSadness - Тихая полночь с лёгким дождём и плотным туманом 
-  ![GardenOfSadness](images/Elar/GardenOfSadness.png)
+  <img src="images/Elar/GardenOfSadness.png" alt="GardenOfSadness" width="500">
   7. GardenOfSerenity - Спокойный ясный день с мягкими облаками и лёгким бризом 
-  ![GardenOfSerenity](images/Elar/GardenOfSerenity.png)
+  <img src="images/Elar/GardenOfSerenity.png" alt="GardenOfSerenity" width="500">
   8. GardenOfStillnes - Безветренное утро с застывшим воздухом и лёгкой дымкой 
-  ![GardenOfStillness](images/Elar/GardenOfStillness.png)
+  <img src="images/Elar/GardenOfStillness.png" alt="GardenOfStillness" width="500">
   9. GardenOfWonder - Волшебная полночь со звёздным небом и светящимися частицами 
-  ![GardenOfWonder](images/Elar/GardenOfWonder.png)
+  <img src="images/Elar/GardenOfWonder.png" alt="GardenOfWonder" width="500">
   Игрок может попасть на любой из этих сегментов просто ходя по миру (они как и в любой Open World игре загружаются в процессе если игрок рядом) или через дебаг функцию телепортации. 
 - Car Level - гоночный уровень стиле ранера, игрок управляет Chevrolet Impala, едет вперед и пытается не попасть в аварию посредством маневрирования/дрифта. Машины на левой полосе уступают если мигать светом или подъехать слишком близко. Если проезжать близко мимо препятствий коеми выступают другие машины с вероятностью 50% появляется QTE из 2 клавиш если ты его прожимаешь машина буститься. Есть 3 уровня буста, которые ускоряют машинку (1 уровень - 110%, 2 уровень - 130%, 3 уровень - 170%), а если забуститься сверх этого машина попадает на 10 секунд в верхний уровень дороги где нету препятствий и находятся Lunoris Points в качестве награды. Уровень заканчивается когда проходит время таймера, сейчас это 1000 секунд для дебага.
  <img src="images/Scenes/CarLevel_1.png" alt="CarLevel_1" width="700">
