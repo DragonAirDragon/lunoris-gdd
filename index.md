@@ -26,37 +26,17 @@
 - NightmareHub - мир кошмаров/страхов, искаженный дом в красных тонах. Отсюда можно попасть через зеркало в DreamHub, через предметы в уровни Кошмаров.
   ![NightmareHub](images/Scenes/NightmareHub.png)
 - Elar - уровень с открытым миром, на данный момент сюда можно попасть только из редактора Unity. Здесь мир разделен на 9 сегментов, у каждого сегмента своя атмосфера и погода, но на данный момент как такого левел дизайна там нет, просто плоская земля:
-  1. GardenOfAnger 
-    ![GardenOfAnger](images/Elar/GardenOfAnger.png)
-  2. GardenOfElarion
-    ![GardenOfElarion](images/Elar/GardenOfElarion.png)
-  3. GardenOfFear
-    ![GardenOfFear](images/Elar/GardenOfFear.png)
-  4. GardenOfHope
-    ![GardenOfHope](images/Elar/GardenOfHope.png) 
-  5. GardenOfJoy 
-    ![GardenOfJoy](images/Elar/GardenOfJoy.png)
-  6. GardenOfSadness 
-    ![GardenOfSadness](images/Elar/GardenOfSadness.png)
-  7. GardenOfSerenity
-    ![GardenOfSerenity](images/Elar/GardenOfSerenity.png)
-  8. GardenOfStillnes 
-    ![GardenOfStillness](images/Elar/GardenOfStillness.png)
-  9. GardenOfWonder
-    ![GardenOfWonder](images/Elar/GardenOfWonder.png)
+  1. GardenOfAnger - Бурный вечер с грозой, молниями и порывистым ветром ![GardenOfAnger](images/Elar/GardenOfAnger.png)
+  2. GardenOfElarion - Редкий полуденный свет с магическим мерцанием в воздухе ![GardenOfElarion](images/Elar/GardenOfElarion.png)
+  3. GardenOfFear - Мрачная ночь с нагнетающей тьмой и холодной дымкой ![GardenOfFear](images/Elar/GardenOfFear.png)
+  4. GardenOfHope - Тёплый рассвет с мягким золотистым светом и пением птиц ![GardenOfHope](images/Elar/GardenOfHope.png) 
+  5. GardenOfJoy - Яркий солнечный день с чистым небом и тёплым ветерком ![GardenOfJoy](images/Elar/GardenOfJoy.png)
+  6. GardenOfSadness - Тихая полночь с лёгким дождём и плотным туманом ![GardenOfSadness](images/Elar/GardenOfSadness.png)
+  7. GardenOfSerenity - Спокойный ясный день с мягкими облаками и лёгким бризом ![GardenOfSerenity](images/Elar/GardenOfSerenity.png)
+  8. GardenOfStillnes - Безветренное утро с застывшим воздухом и лёгкой дымкой ![GardenOfStillness](images/Elar/GardenOfStillness.png)
+  9. GardenOfWonder - Волшебная полночь со звёздным небом и светящимися частицами ![GardenOfWonder](images/Elar/GardenOfWonder.png)
   Игрок может попасть на любой из этих сегментов просто ходя по миру (они как и в любой Open World игре загружаются в процессе если игрок рядом) или через дебаг функцию телепортации. 
-- Car Level - гоночный уровень стиле ранера, игрок управляет Chevrolet Impala, едет вперед и пытается не попасть в аварию посредством маневрирования/дрифта. Машины на левой полосе уступают если мигать светом или подъехать слишком близко. Если проезжать близко мимо препятствий коеми выступают другие машины с некоторой вероятностью появляется QTE если ты его прожимаешь машина буститься. Есть 3 уровня буста, которые ускоряют машинку, а если забуститься сверх этого машина попадает на верхний уровень дороги где нету препятствий и находятся Lunoris Points в качестве награды. Уровень заканчивается когда проходит время таймера, сейчас это 1000 секунд для дебага.
-  
-  **QTE Настройки:**
-  | Параметр | Значение | Описание |
-  |----------|----------|----------|
-  | QTE Chance | 0.5 | Вероятность появления QTE при близком проезде мимо препятствия (50%) |
-  | QTE Input Time | 2 сек | Время на ввод комбинации клавиш |
-  | Slow Motion Scale | 0.3 | Замедление времени во время QTE (30% от нормальной скорости) |
-  | QTE Cooldown | 3 сек | Перезарядка между QTE событиями |
-  
-  > ⚠️ ВАЖНО: Названия действий должны ТОЧНО совпадать с названиями в Input Action Map 'Car'
-  Снизу картинки как выглядит первый уровень дороги и как выглядит второй уровень дороги
+- Car Level - гоночный уровень стиле ранера, игрок управляет Chevrolet Impala, едет вперед и пытается не попасть в аварию посредством маневрирования/дрифта. Машины на левой полосе уступают если мигать светом или подъехать слишком близко. Если проезжать близко мимо препятствий коеми выступают другие машины с вероятностью 50% появляется QTE из 2 клавиш если ты его прожимаешь машина буститься. Есть 3 уровня буста, которые ускоряют машинку (1 уровень - 110%, 2 уровень - 130%, 3 уровень - 170%), а если забуститься сверх этого машина попадает на 10 секунд в верхний уровень дороги где нету препятствий и находятся Lunoris Points в качестве награды. Уровень заканчивается когда проходит время таймера, сейчас это 1000 секунд для дебага.
  ![CarLevel_1](images/Scenes/CarLevel_1.png)
  ![CarLevel_2](images/Scenes/CarLevel_2.png)
 
@@ -64,4 +44,5 @@
 - Lunoris/Lunora - главная героиня игры, у неё есть две формы одна. Реальная - Lunora, и призрачная - Lunoris
 - Dog - компаньон главной героини
 - Chevrolet Impala 1967 года - машина которой управляет игрок в гоночном уровне
--  
+- 
+
