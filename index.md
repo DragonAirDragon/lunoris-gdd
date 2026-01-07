@@ -88,3 +88,5 @@
   ![ResourcePanel](images/UI/ResourcePanel.png)
 - диалоговое окно
   ![DialogWindow](images/UI/DialogWindow.png)
+
+  
