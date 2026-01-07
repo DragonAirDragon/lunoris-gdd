@@ -17,3 +17,7 @@ Thumbs.db
 # *.mp4
 # *.mov
 # *.avi
+.obsidian/workspace.json
+.obsidian/core-plugins.json
+.obsidian/appearance.json
+.obsidian/app.json
