@@ -1,54 +1,54 @@
-# Реалистичный контроллер машины
+# Realistic Car Controller
 
-> Контроллер машины на основе реальных физических формул
-
----
-
-## Описание
-
-Физически корректный контроллер для управления автомобилем. Используется на уровне Car Level.
+> Car controller based on real physics formulas
 
 ---
 
-## Физика
+## Description
 
-Контроллер основан на реальных физических формулах:
-- Трение колёс
-- Инерция
-- Центр масс
-- *(TODO: уточнить детали)*
+Physically accurate controller for driving vehicles. Used in Car Level.
 
 ---
 
-## Управление
+## Physics
 
-| Действие | Описание |
-|----------|----------|
-| **Руление** | Повороты влево/вправо |
-| **Газ** | Ускорение |
-| **Дрифт** | Резкие повороты |
-| **Мигание светом** | Сигнал другим машинам |
+Controller based on real physics formulas:
+- Wheel friction
+- Inertia
+- Center of mass
+- *(TODO: clarify details)*
 
 ---
 
-## Система буста
+## Controls
 
-| Уровень | Скорость | Как получить |
-|---------|----------|--------------|
-| 0 | 100% | Базовая |
+| Action | Description |
+|--------|-------------|
+| **Steering** | Turn left/right |
+| **Gas** | Acceleration |
+| **Drift** | Sharp turns |
+| **Flashing lights** | Signal to other cars |
+
+---
+
+## Boost System
+
+| Level | Speed | How to Get |
+|-------|-------|------------|
+| 0 | 100% | Base |
 | 1 | 110% | QTE |
 | 2 | 130% | QTE |
 | 3 | 170% | QTE |
-| MAX | Верхний уровень | 3+ буста подряд |
+| MAX | Upper level | 3+ boosts in a row |
 
 ---
 
-## Где используется
+## Where Used
 
-| Сцена | Транспорт |
-|-------|-----------|
+| Scene | Vehicle |
+|-------|--------|
 | Car Level | Chevrolet Impala 1967 |
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

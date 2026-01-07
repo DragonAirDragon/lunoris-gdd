@@ -1,29 +1,29 @@
-# Катсцена кровати
+# Bed Cutscene
 
-> Переход между мирами через кровать
-
----
-
-## Описание
-
-Катсцена, которая проигрывается при взаимодействии с кроватью. Используется для перехода между уровнями.
+> Transition between worlds through bed
 
 ---
 
-## Части
+## Description
 
-| Часть | Сцена | Описание |
-|-------|-------|----------|
+Cutscene that plays when interacting with the bed. Used for transitioning between levels.
+
+---
+
+## Parts
+
+| Part | Scene | Description |
+|------|-------|-------------|
 | **1** | DayHome | *(TODO)* |
 | **2** | DreamHub | *(TODO)* |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Аниматор кровати](bed-animator.md)
-- [Система интеракций](interaction-system.md)
+- [Bed Animator](bed-animator.md)
+- [Interaction System](interaction-system.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

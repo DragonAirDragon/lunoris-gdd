@@ -1,40 +1,40 @@
 # Creature
 
-> Более сильный противник
+> Stronger opponent
 
 ---
 
-## Описание
+## Description
 
-Усиленный вариант врага с большим запасом здоровья и разнообразными атаками.
-
----
-
-## Характеристики
-
-| Параметр | Значение |
-|----------|----------|
-| **HP** | Много |
-| **Урон** | Средний/Высокий |
-| **Атака ближнего боя** | Да |
-| **Атака дальнего боя** | Лук |
-| **Контроллер** | Malbers NPC |
+Enhanced enemy variant with high health pool and diverse attacks.
 
 ---
 
-## Где появляется
+## Stats
 
-| Сцена | Статус |
+| Parameter | Value |
+|-----------|-------|
+| **HP** | High |
+| **Damage** | Medium/High |
+| **Melee attack** | Yes |
+| **Ranged attack** | Bow |
+| **Controller** | Malbers NPC |
+
+---
+
+## Where It Appears
+
+| Scene | Status |
 |-------|--------|
-| Nightmare Level | **Отключён** (можно включить) |
+| Nightmare Level | **Disabled** (can be enabled) |
 
 ---
 
-## Атаки
+## Attacks
 
-- **Ближний бой** — *(TODO: описать)*
-- **Дальний бой (лук)** — *(TODO: описать)*
+- **Melee** — *(TODO: describe)*
+- **Ranged (bow)** — *(TODO: describe)*
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+← [All Characters](index.md) | [Back to GDD](../index.md)

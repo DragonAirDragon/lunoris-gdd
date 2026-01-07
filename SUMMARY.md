@@ -1,8 +1,8 @@
 # Table of contents
 
-* [🎮 Быстрый старт](index.md)
+* [🎮 Quick Start](index.md)
 
-## 🗺️ Сцены
+## 🗺️ Scenes
 
 * [DayHome](index.md#dayhome)
 * [DreamHub](index.md#dreamhub)
@@ -10,57 +10,57 @@
 * [Tutorial](index.md#tutorial)
 * [Elar (Open World)](index.md#elar-open-world)
 * [Car Level](index.md#car-level)
-* [Nightmare Level](index.md#nightmare-level-уровень-кошмаров)
+* [Nightmare Level](index.md#nightmare-level-nightmare-level)
 
-## 👤 Персонажи
+## 👤 Characters
 
-* [Обзор](characters/index.md)
+* [Overview](characters/index.md)
 * [Lunora/Lunoris/Kurtam](characters/lunora.md)
 * [Dog](characters/dog.md)
 * [Chevrolet Impala 1967](characters/impala.md)
-* [Лёгкий враг](characters/light-enemy.md)
+* [Light Enemy](characters/light-enemy.md)
 * [Creature](characters/creature.md)
 * [Ghost](characters/ghost.md)
 
-## ⚙️ Механики
+## ⚙️ Mechanics
 
-* [Обзор](mechanics/index.md)
+* [Overview](mechanics/index.md)
 
-### Контроллеры
+### Controllers
 
-* [Гибридный контроллер](mechanics/hybrid-controller.md)
-* [Malbers контроллер](mechanics/malbers-controller.md)
-* [Контроллер машины](mechanics/car-controller.md)
+* [Hybrid Controller](mechanics/hybrid-controller.md)
+* [Malbers Controller](mechanics/malbers-controller.md)
+* [Car Controller](mechanics/car-controller.md)
 
-### Боевые системы
+### Combat Systems
 
-* [Комбо система](mechanics/combo-system.md)
+* [Combo System](mechanics/combo-system.md)
 * [Lucid Rush](mechanics/lucid-rush.md)
-* [QTE система](mechanics/qte-system.md)
+* [QTE System](mechanics/qte-system.md)
 
-### NPC и AI
+### NPC and AI
 
-* [Простой NPC](mechanics/simple-npc.md)
+* [Simple NPC](mechanics/simple-npc.md)
 * [Malbers NPC](mechanics/malbers-npc.md)
 
-### Взаимодействия
+### Interactions
 
-* [Диалоговая система](mechanics/dialogue-system.md)
-* [Система интеракций](mechanics/interaction-system.md)
-* [Prompt система](mechanics/prompt-system.md)
+* [Dialogue System](mechanics/dialogue-system.md)
+* [Interaction System](mechanics/interaction-system.md)
+* [Prompt System](mechanics/prompt-system.md)
 
-### Мир и окружение
+### World and Environment
 
-* [Open World система](mechanics/open-world.md)
-* [Погода (Cozy Weather)](mechanics/weather.md)
-* [Система генерации дороги](mechanics/road-generation.md)
+* [Open World System](mechanics/open-world.md)
+* [Weather (Cozy Weather)](mechanics/weather.md)
+* [Road Generation System](mechanics/road-generation.md)
 
-### Катсцены
+### Cutscenes
 
-* [Катсцена кровати](mechanics/bed-cutscene.md)
-* [Катсцена балкона](mechanics/balcony-cutscene.md)
-* [Аниматор кровати](mechanics/bed-animator.md)
+* [Bed Cutscene](mechanics/bed-cutscene.md)
+* [Balcony Cutscene](mechanics/balcony-cutscene.md)
+* [Bed Animator](mechanics/bed-animator.md)
 
-### Дебаг
+### Debug
 
-* [Дебаг телепорт](mechanics/debug-teleport.md)
+* [Debug Teleport](mechanics/debug-teleport.md)

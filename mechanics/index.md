@@ -1,74 +1,74 @@
-# Механики
+# Mechanics
 
-Все игровые механики и системы в Lunoris.
-
----
-
-## Контроллеры персонажей
-
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Гибридный контроллер](hybrid-controller.md) | От 1 и 3 лица, без боя | DayHome, DreamHub, NightmareHub, Elar |
-| [Malbers контроллер](malbers-controller.md) | Боевой, продвинутый Locomotion | Tutorial, Nightmare Level |
-| [Контроллер машины](car-controller.md) | Реалистичная физика | Car Level |
+All game mechanics and systems in Lunoris.
 
 ---
 
-## Боевые системы
+## Character Controllers
 
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Комбо система](combo-system.md) | Light/Heavy атаки | Nightmare Level |
-| [Lucid Rush](lucid-rush.md) | Ультимативная способность | Nightmare Level |
-| [QTE система](qte-system.md) | Quick Time Events | Car Level, Nightmare Level |
-
----
-
-## NPC и AI
-
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Простой NPC](simple-npc.md) | Следование за игроком | DreamHub |
-| [Malbers NPC](malbers-npc.md) | Продвинутый AI с состояниями | Tutorial, Nightmare Level |
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Hybrid controller](hybrid-controller.md) | 1st and 3rd person, no combat | DayHome, DreamHub, NightmareHub, Elar |
+| [Malbers controller](malbers-controller.md) | Combat, advanced Locomotion | Tutorial, Nightmare Level |
+| [Car controller](car-controller.md) | Realistic physics | Car Level |
 
 ---
 
-## Мир и окружение
+## Combat Systems
 
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Open World система](open-world.md) | Динамическая загрузка сегментов | Elar |
-| [Погода (Cozy Weather)](weather.md) | Динамическая погода и атмосфера | Elar |
-| [Генерация дороги](road-generation.md) | Процедурная и мануальная | Car Level |
-
----
-
-## Взаимодействия
-
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Диалоговая система](dialogue-system.md) | Диалоги с объектами/NPC | DayHome, DreamHub, NightmareHub, Tutorial |
-| [Система интеракций](interaction-system.md) | Взаимодействие с объектами | Все хабы, Tutorial |
-| [Prompt система](prompt-system.md) | Подсказки для интеракций | Все сцены |
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Combo system](combo-system.md) | Light/Heavy attacks | Nightmare Level |
+| [Lucid Rush](lucid-rush.md) | Ultimate ability | Nightmare Level |
+| [QTE system](qte-system.md) | Quick Time Events | Car Level, Nightmare Level |
 
 ---
 
-## Катсцены и анимации
+## NPC and AI
 
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Катсцена кровати](bed-cutscene.md) | Переход между мирами | DayHome, DreamHub |
-| [Катсцена балкона](balcony-cutscene.md) | *(TODO)* | DreamHub |
-| [Аниматор кровати](bed-animator.md) | Анимация кровати | DayHome, DreamHub |
-
----
-
-## Дебаг
-
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Дебаг телепорт](debug-teleport.md) | Телепортация между сегментами | Elar |
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Simple NPC](simple-npc.md) | Following the player | DreamHub |
+| [Malbers NPC](malbers-npc.md) | Advanced AI with states | Tutorial, Nightmare Level |
 
 ---
 
-← [Вернуться к GDD](../index.md)
+## World and Environment
+
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Open World system](open-world.md) | Dynamic segment loading | Elar |
+| [Weather (Cozy Weather)](weather.md) | Dynamic weather and atmosphere | Elar |
+| [Road generation](road-generation.md) | Procedural and manual | Car Level |
+
+---
+
+## Interactions
+
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Dialogue system](dialogue-system.md) | Dialogues with objects/NPCs | DayHome, DreamHub, NightmareHub, Tutorial |
+| [Interaction system](interaction-system.md) | Interaction with objects | All hubs, Tutorial |
+| [Prompt system](prompt-system.md) | Interaction hints | All scenes |
+
+---
+
+## Cutscenes and Animations
+
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Bed cutscene](bed-cutscene.md) | Transition between worlds | DayHome, DreamHub |
+| [Balcony cutscene](balcony-cutscene.md) | *(TODO)* | DreamHub |
+| [Bed animator](bed-animator.md) | Bed animation | DayHome, DreamHub |
+
+---
+
+## Debug
+
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Debug teleport](debug-teleport.md) | Teleportation between segments | Elar |
+
+---
+
+← [Back to GDD](../index.md)

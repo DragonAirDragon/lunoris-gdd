@@ -1,31 +1,31 @@
-# Дебаг телепорт
+# Debug Teleport
 
-> Телепортация между сегментами (для разработки)
+> Teleportation between segments (for development)
 
 ---
 
-## Описание
+## Description
 
-Дебаг-функция для быстрого перемещения между сегментами мира Elar.
+Debug function for quick movement between Elar world segments.
 
 ---
 
 ## UI
 
-*(TODO: добавить скриншот UI телепорта)*
+*(TODO: add teleport UI screenshot)*
 
 ---
 
-## Где используется
+## Where Used
 
-| Сцена |
+| Scene |
 |-------|
 | Elar |
 
 ---
 
-⚠️ **Только для разработки** — не предназначен для финальной версии игры.
+⚠️ **Development only** — not intended for final game version.
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

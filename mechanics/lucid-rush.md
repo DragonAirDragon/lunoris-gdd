@@ -1,55 +1,55 @@
 # Lucid Rush
 
-> Ультимативная боевая способность
+> Ultimate combat ability
 
 ---
 
-## Описание
+## Description
 
-Особая способность, активируемая при заполнении Lucid Meter. Замедляет время и позволяет нанести серию мощных ударов через QTE.
-
----
-
-## Активация
-
-| Условие | Значение |
-|---------|----------|
-| **Lucid Meter** | 100 (заполнен) |
-| **+50 к метру за:** | Удачное уклонение или парирование |
+Special ability activated when Lucid Meter is full. Slows time and allows dealing a series of powerful strikes through QTE.
 
 ---
 
-## Механика
+## Activation
 
-1. При заполнении Lucid Meter (0→100) активируется Lucid Rush
-2. **Замедление времени**
-3. Появляется **3 QTE** с комбо
-4. Каждое успешное QTE: **+50% к урону**
-5. Максимальный бонус: **+150% к урону**
-
----
-
-## Провал
-
-| Штраф |
-|-------|
-| Стан игрока на **2 секунды** |
+| Condition | Value |
+|-----------|-------|
+| **Lucid Meter** | 100 (full) |
+| **+50 to meter for:** | Successful dodge or parry |
 
 ---
 
-## Где используется
+## Mechanic
 
-| Сцена |
+1. When Lucid Meter fills (0→100), Lucid Rush activates
+2. **Time slowdown**
+3. **3 QTE** with combos appear
+4. Each successful QTE: **+50% damage**
+5. Maximum bonus: **+150% damage**
+
+---
+
+## Failure
+
+| Penalty |
+|--------|
+| Player stun for **2 seconds** |
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | Nightmare Level |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Комбо система](combo-system.md)
-- [QTE система](qte-system.md)
+- [Combo System](combo-system.md)
+- [QTE System](qte-system.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

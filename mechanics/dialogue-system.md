@@ -1,20 +1,20 @@
-# Диалоговая система
+﻿# Dialogue System
 
-> Система диалогов с объектами и NPC
-
----
-
-## Описание
-
-Система для отображения диалогов при взаимодействии с интерактивными объектами и персонажами.
+> Dialogue system for objects and NPCs
 
 ---
 
-## Где используется
+## Description
 
-| Сцена | Объекты |
-|-------|---------|
-| DayHome | Спящая собака, картина, виолончель |
+System for displaying dialogues when interacting with interactive objects and characters.
+
+---
+
+## Where Used
+
+| Scene | Objects |
+|-------|--------|
+| DayHome | Sleeping dog, painting, cello |
 | DreamHub | *(TODO)* |
 | NightmareHub | *(TODO)* |
 | Tutorial | *(TODO)* |
@@ -27,11 +27,11 @@
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Система интеракций](interaction-system.md)
-- [Prompt система](prompt-system.md)
+- [Interaction System](interaction-system.md)
+- [Prompt System](prompt-system.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+ [All Mechanics](index.md) | [Back to GDD](../index.md)

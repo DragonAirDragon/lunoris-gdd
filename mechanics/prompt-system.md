@@ -1,27 +1,27 @@
-# Prompt система
+# Prompt System
 
-> Подсказки для интеракций
-
----
-
-## Описание
-
-UI-элемент, который появляется на экране при приближении к интерактивному объекту. Показывает какую кнопку нажать и с чем можно взаимодействовать.
+> Interaction hints
 
 ---
 
-## Элементы
+## Description
 
-| Элемент | Описание |
-|---------|----------|
-| **Кнопка** | Какую клавишу нажать |
-| **Название** | С чем взаимодействуем |
+UI element that appears on screen when approaching an interactive object. Shows which button to press and what can be interacted with.
 
 ---
 
-## Где используется
+## Elements
 
-Все сцены:
+| Element | Description |
+|---------|-------------|
+| **Button** | Which key to press |
+| **Name** | What we interact with |
+
+---
+
+## Where Used
+
+All scenes:
 - DayHome
 - DreamHub
 - NightmareHub
@@ -34,8 +34,8 @@ UI-элемент, который появляется на экране при 
 
 ## UI
 
-*(TODO: добавить скриншот Prompt панели)*
+*(TODO: add Prompt panel screenshot)*
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

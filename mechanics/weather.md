@@ -1,40 +1,40 @@
-# Погода (Cozy Weather)
+# Weather (Cozy Weather)
 
-> Система динамической погоды и атмосферы
-
----
-
-## Описание
-
-Система Cozy Weather позволяет менять погоду и создавать уникальную атмосферу для каждого сегмента мира.
+> Dynamic weather and atmosphere system
 
 ---
 
-## Погодные эффекты
+## Description
 
-| Эффект | Сегменты |
+Cozy Weather system allows changing weather and creating unique atmosphere for each world segment.
+
+---
+
+## Weather Effects
+
+| Effect | Segments |
 |--------|----------|
-| **Гроза** | GardenOfAnger |
-| **Молнии** | GardenOfAnger |
-| **Дождь** | GardenOfSadness |
-| **Туман** | GardenOfSadness, GardenOfFear |
-| **Звёзды** | GardenOfWonder |
-| **Частицы** | GardenOfWonder, GardenOfElarion |
+| **Storm** | GardenOfAnger |
+| **Lightning** | GardenOfAnger |
+| **Rain** | GardenOfSadness |
+| **Fog** | GardenOfSadness, GardenOfFear |
+| **Stars** | GardenOfWonder |
+| **Particles** | GardenOfWonder, GardenOfElarion |
 
 ---
 
-## Где используется
+## Where Used
 
-| Сцена |
+| Scene |
 |-------|
-| Elar (все сегменты) |
+| Elar (all segments) |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Open World система](open-world.md)
+- [Open World System](open-world.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

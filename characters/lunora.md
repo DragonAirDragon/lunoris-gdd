@@ -1,44 +1,44 @@
 # Lunora / Lunoris / Kurtam
 
-> Главная героиня игры
+> Main heroine of the game
 
 ---
 
-## Формы персонажа
+## Character Forms
 
-| Форма | Описание | Где используется |
-|-------|----------|------------------|
-| **Lunora** | Реальная форма | DayHome |
-| **Lunoris** | Призрачная форма | DreamHub, NightmareHub, Elar, Tutorial, Nightmare Level |
-| **Kurtam** | Форма животного | *(TODO: уточнить где используется)* |
-
----
-
-## Контроллеры
-
-В зависимости от сцены персонаж использует разные контроллеры:
-
-| Контроллер | Описание | Сцены |
-|------------|----------|-------|
-| Гибридный контроллер | От 1 и 3 лица, без боевых механик | DayHome, DreamHub, NightmareHub, Elar |
-| Malbers контроллер | Боевые механики, продвинутый Locomotion | Tutorial, Nightmare Level |
+| Form | Description | Where Used |
+|------|-------------|------------|
+| **Lunora** | Real form | DayHome |
+| **Lunoris** | Phantom form | DreamHub, NightmareHub, Elar, Tutorial, Nightmare Level |
+| **Kurtam** | Animal form | *(TODO: clarify where used)* |
 
 ---
 
-## Боевые способности (Malbers)
+## Controllers
 
-- **Light комбо** — быстрые лёгкие атаки
-- **Heavy комбо** — медленные тяжёлые атаки
-- **Уклонение** — сопровождается слоу-мо
-- **Парирование** — сопровождается слоу-мо
-- **Lucid Rush** — ультимативная способность (см. [Lucid Rush](../mechanics/lucid-rush.md))
+Depending on the scene, the character uses different controllers:
 
----
-
-## Визуал
-
-*(TODO: добавить скриншоты/концепт-арты форм)*
+| Controller | Description | Scenes |
+|------------|-------------|--------|
+| Hybrid controller | 1st and 3rd person, no combat mechanics | DayHome, DreamHub, NightmareHub, Elar |
+| Malbers controller | Combat mechanics, advanced Locomotion | Tutorial, Nightmare Level |
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+## Combat Abilities (Malbers)
+
+- **Light combo** — fast light attacks
+- **Heavy combo** — slow heavy attacks
+- **Dodge** — accompanied by slow-mo
+- **Parry** — accompanied by slow-mo
+- **Lucid Rush** — ultimate ability (see [Lucid Rush](../mechanics/lucid-rush.md))
+
+---
+
+## Visuals
+
+*(TODO: add screenshots/concept art of forms)*
+
+---
+
+← [All Characters](index.md) | [Back to GDD](../index.md)

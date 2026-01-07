@@ -1,45 +1,45 @@
-# Система генерации дороги
+# Road Generation System
 
-> Процедурная и мануальная генерация дороги
-
----
-
-## Описание
-
-Система для создания бесконечной дороги на уровне Car Level. Поддерживает два режима работы.
+> Procedural and manual road generation
 
 ---
 
-## Режимы
+## Description
 
-| Режим | Описание |
-|-------|----------|
-| **Процедурный** | Дорога генерируется автоматически по алгоритму |
-| **Мануальный** | Дорога создаётся вручную в редакторе |
+System for creating endless road in Car Level. Supports two modes of operation.
 
 ---
 
-## Элементы дороги
+## Modes
 
-- Прямые участки
-- Повороты
-- Препятствия (другие машины)
-- Верхний уровень (награда)
+| Mode | Description |
+|------|-------------|
+| **Procedural** | Road is generated automatically by algorithm |
+| **Manual** | Road is created manually in editor |
 
 ---
 
-## Где используется
+## Road Elements
 
-| Сцена |
+- Straight sections
+- Turns
+- Obstacles (other cars)
+- Upper level (reward)
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | Car Level |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Контроллер машины](car-controller.md)
+- [Car Controller](car-controller.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

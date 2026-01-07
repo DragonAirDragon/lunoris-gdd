@@ -1,107 +1,107 @@
-# Lunoris — Game Design Document (As-Is). Быстрый старт
+# Lunoris — Game Design Document (As-Is). Quick Start
 
-> **Что это:** Документация текущего состояния игры.  
-> **Формат:** Вики-структура, короткие страницы, практические примеры.  
-> **Цель:** Онбординг новых участников + фиксация "что реально работает".
+> **What is this:** Documentation of the current state of the game.  
+> **Format:** Wiki-structure, short pages, practical examples.  
+> **Goal:** Onboarding new team members + documenting "what actually works".
 
 ---
-## 🗺️ Вступление
+## 🗺️ Introduction
 
-**Lunoris** — 3D приключенческая игра с элементами:
-- Путешествия между мирами реальным и призрачным
-- Гоночный/раннер режим с дрифтом
-- Сражения как в Zelda/Genshin Impact
-- Система прогрессии и квестов
-- Диалоги
+**Lunoris** — a 3D adventure game with elements of:
+- Traveling between real and phantom worlds
+- Racing/runner mode with drifting
+- Combat like in Zelda/Genshin Impact
+- Progression and quest system
+- Dialogues
   
-Проект позиционирует себя как игра с множеством мини-игр внутри (похожий пример - Miside), а по вайбу очень похоже на GRIS (2018)
+The project positions itself as a game with multiple mini-games inside (similar example - Miside), and the vibe is very similar to GRIS (2018)
 
 
 ---
 
-## 🗺️ Сцены
+## 🗺️ Scenes
 
 ### DayHome
-Реальный мир, обычный дом в вечерней атмосфере. Стартовая точка игры с несколькими диалоговыми взаимодействиями с предметами (спящая собака, картина и виолончель). Отсюда можно попасть через взаимодействие с кроватью в любой уровень кроме CarLevel.
+Real world, an ordinary house in an evening atmosphere. The starting point of the game with several dialogue interactions with objects (sleeping dog, painting, and cello). From here you can access any level except CarLevel through interaction with the bed.
 
 ![DayHome](images/Scenes/DayHome.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** |  Гибридный контроллер игрока, Диалоговая система, Интеракции с предметами, Аниматор для кровати, Prompt система, Катсцена кровати (1 часть) |
-| **Персонажи** | Lunora (реальная форма) |
-| **Ресурсы** | - |
-| **UI** | Окно паузы, Окна настроек, Диалоговое окно, Квестовая панель, Выбор уровней, Prompt панель |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Hybrid player controller, Dialogue system, Object interactions, Bed animator, Prompt system, Bed cutscene (part 1) |
+| **Characters** | Lunora (real form) |
+| **Resources** | - |
+| **UI** | Pause menu, Settings windows, Dialogue window, Quest panel, Level select, Prompt panel |
 
 ---
 
 ### DreamHub
-Мир снов/фантазий, искаженный дом в фиолетовых тонах. Здесь появляется активный компаньон Dog, который следует за игроком и смотрит на него. Отсюда можно попасть через зеркало в NightmareHub, через предметы в уровни Снов (только Tutorial) и через взаимодействие с кроватью в любой уровень, а также в секретный уровень Car Level, если выйти на улицу и повзаимодействовать с машиной.
+World of dreams/fantasies, a distorted house in purple tones. Here an active companion Dog appears, who follows the player and looks at them. From here you can go through the mirror to NightmareHub, through objects to Dream levels (only Tutorial), and through interaction with the bed to any level, as well as to the secret Car Level by going outside and interacting with the car.
 
 ![DreamHub](images/Scenes/DreamHub.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Диалоговая система, Гибридный контроллер игрока, Система для интеракций, Аниматор для кровати, Кастсцена балкона, Катсцена кровати (2 часть), Prompt система, Простой NPC |
-| **Персонажи** | Lunoris (призрачная форма), Dog |
-| **Ресурсы** | — |
-| **UI** | Главное меню, Окно паузы, Окна настроек, Квестовая панель, Панель ресурсов, Выбор уровней, Prompt панель |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Dialogue system, Hybrid player controller, Interaction system, Bed animator, Balcony cutscene, Bed cutscene (part 2), Prompt system, Simple NPC |
+| **Characters** | Lunoris (phantom form), Dog |
+| **Resources** | — |
+| **UI** | Main menu, Pause menu, Settings windows, Quest panel, Resource panel, Level select, Prompt panel |
 
 ---
 
 ### NightmareHub
-Мир кошмаров/страхов, искаженный дом в красных тонах. Отсюда можно попасть через зеркало в DreamHub, через предметы в уровни Кошмаров (Nightmare Level).
+World of nightmares/fears, a distorted house in red tones. From here you can go through the mirror to DreamHub, through objects to Nightmare levels (Nightmare Level).
 
 ![NightmareHub](images/Scenes/NightmareHub.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Диалоги,  Гибридный контроллер игрока, Система для интеракций, Prompt система |
-| **Персонажи** | Lunoris (призрачная форма) |
-| **Ресурсы** | — |
-| **UI** | Окно паузы, Окна настроек (графика и звуки), Квестовая панель,Prompt панель |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Dialogues, Hybrid player controller, Interaction system, Prompt system |
+| **Characters** | Lunoris (phantom form) |
+| **Resources** | — |
+| **UI** | Pause menu, Settings windows (graphics and sound), Quest panel, Prompt panel |
 
 ---
 
 ### Tutorial
-Уровень вида с боку, где нужно пропрыгать все препятствия и пройти до портала, попутно открывая сундуки и решая головоломки. Собака бегает на заднем фоне и подбирает ресурсы. 
+Side-view level where you need to jump over all obstacles and reach the portal, opening chests and solving puzzles along the way. The dog runs in the background and collects resources.
 
 ![Tutorial](images/Scenes/Tutorial.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Malbers Контроллер игрока, Malbers NPC, Prompt система, Система для интеракций |
-| **Персонажи** | Lunoris, Dog |
-| **Ресурсы** | Stress Bar, Lucid Points, Echo Shard |
-| **UI** | Окно паузы, Окна настроек, Квестовая панель, Панель ресурсов, Диалоговое окно, Бар HP, Prompt панель |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Malbers Player Controller, Malbers NPC, Prompt system, Interaction system |
+| **Characters** | Lunoris, Dog |
+| **Resources** | Stress Bar, Lucid Points, Echo Shard |
+| **UI** | Pause menu, Settings windows, Quest panel, Resource panel, Dialogue window, HP Bar, Prompt panel |
 
-Команда приняла решение его удалить, так что уровень в очереди на удаление!
+The team decided to remove it, so the level is in the deletion queue!
 
 ---
 
 ### Elar (Open World)
-Уровень с открытым миром, на данный момент доступен только из редактора Unity. Мир разделен на 9 сегментов, у каждого своя атмосфера и погода. На данный момент левел дизайна нет — просто плоская земля.
+Open world level, currently accessible only from the Unity editor. The world is divided into 9 segments, each with its own atmosphere and weather. Currently there is no level design — just flat ground.
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Гибридный контроллер игрока, Open world, Погода, Дебаг телепорт |
-| **Персонажи** | Lunoris |
-| **Ресурсы** | — |
-| **UI** | Окно паузы, Окна настроек, Квестовая панель, Панель ресурсов, Prompt панель, Дебаг телепорт |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Hybrid player controller, Open world, Weather, Debug teleport |
+| **Characters** | Lunoris |
+| **Resources** | — |
+| **UI** | Pause menu, Settings windows, Quest panel, Resource panel, Prompt panel, Debug teleport |
 
-**Сегменты Elar:**
+**Elar Segments:**
 
-| # | Сегмент | Атмосфера |
-|---|---------|-----------|
-| 1 | GardenOfAnger | Бурный вечер с грозой, молниями и порывистым ветром |
-| 2 | GardenOfElarion | Редкий полуденный свет с магическим мерцанием в воздухе |
-| 3 | GardenOfFear | Мрачная ночь с нагнетающей тьмой и холодной дымкой |
-| 4 | GardenOfHope | Тёплый рассвет с мягким золотистым светом и пением птиц |
-| 5 | GardenOfJoy | Яркий солнечный день с чистым небом и тёплым ветерком |
-| 6 | GardenOfSadness | Тихая полночь с лёгким дождём и плотным туманом |
-| 7 | GardenOfSerenity | Спокойный ясный день с мягкими облаками и лёгким бризом |
-| 8 | GardenOfStillness | Безветренное утро с застывшим воздухом и лёгкой дымкой |
-| 9 | GardenOfWonder | Волшебная полночь со звёздным небом и светящимися частицами |
+| # | Segment | Atmosphere |
+|---|---------|------------|
+| 1 | GardenOfAnger | Stormy evening with thunderstorm, lightning and gusty wind |
+| 2 | GardenOfElarion | Rare midday light with magical shimmer in the air |
+| 3 | GardenOfFear | Gloomy night with oppressive darkness and cold haze |
+| 4 | GardenOfHope | Warm sunrise with soft golden light and birdsong |
+| 5 | GardenOfJoy | Bright sunny day with clear sky and warm breeze |
+| 6 | GardenOfSadness | Quiet midnight with light rain and dense fog |
+| 7 | GardenOfSerenity | Calm clear day with soft clouds and light breeze |
+| 8 | GardenOfStillness | Windless morning with still air and light haze |
+| 9 | GardenOfWonder | Magical midnight with starry sky and glowing particles |
 
 ![GardenOfAnger](images/Elar/GardenOfAnger.png)
 ![GardenOfElarion](images/Elar/GardenOfElarion.png)
@@ -113,183 +113,183 @@
 ![GardenOfStillness](images/Elar/GardenOfStillness.png)
 ![GardenOfWonder](images/Elar/GardenOfWonder.png)
 
-Игрок может попасть на любой сегмент, ходя по миру (загружаются динамически при приближении) или через дебаг-телепортацию.
+The player can reach any segment by walking through the world (they load dynamically when approaching) or through debug teleportation.
 
 ---
 
 ### Car Level
-Гоночный уровень в стиле раннера. Игрок управляет Chevrolet Impala, едет вперёд и пытается не попасть в аварию посредством маневрирования/дрифта.
+Racing level in runner style. The player controls a Chevrolet Impala, drives forward and tries to avoid accidents by maneuvering/drifting.
 
-**Особенности:**
-- Машины на левой полосе уступают при мигании светом или при близком подъезде
-- При проезде близко мимо препятствий (50% шанс) появляется QTE из 2 клавиш → буст
-- 3 уровня буста: 110% → 130% → 170% скорости
-- При максимальном бусте — 10 сек на верхнем уровне дороги без препятствий + Lucid Points
-- Уровень заканчивается по таймеру (сейчас 1000 сек для дебага)
+**Features:**
+- Cars in the left lane yield when flashing lights or when approaching too close
+- When passing close to obstacles (50% chance) a QTE of 2 keys appears → boost
+- 3 boost levels: 110% → 130% → 170% speed
+- At maximum boost — 10 sec on upper road level without obstacles + Lucid Points
+- Level ends when timer runs out (currently 1000 sec for debugging)
 
 ![CarLevel_1](images/Scenes/CarLevel_1.png)
 ![CarLevel_2](images/Scenes/CarLevel_2.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Реалистичный контроллер машины, Система для генерация дороги, QTE система |
-| **Персонажи** | Chevrolet Impala 1967 |
-| **Ресурсы** | Lucid Points |
-| **UI** | Окно паузы, Окна настроек, UI машины, QTE окно |
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Realistic car controller, Road generation system, QTE system |
+| **Characters** | Chevrolet Impala 1967 |
+| **Resources** | Lucid Points |
+| **UI** | Pause menu, Settings windows, Car UI, QTE window |
 
 ---
 
-### Nightmare Level (уровень Кошмаров)
-Уровень кошмара — скалистый пустырь в красных тонах с блэкаутом. Цель: дойти до телепорта и убить всех врагов.
+### Nightmare Level (Nightmare Level)
+Nightmare level — a rocky wasteland in red tones with blackout. Goal: reach the teleport and kill all enemies.
 
-**Враги:** 2× Лёгкий враг + 1× Ghost (Creature отключён, но можно включить)
+**Enemies:** 2× Light enemy + 1× Ghost (Creature is disabled, but can be enabled)
 
-**Боевая система:**
-- Light комбо — быстрые лёгкие атаки
-- Heavy комбо — медленные тяжёлые атаки
-- Уклонение — сопровождается слоу-мо
-- Парирование — сопровождается слоу-мо
-- **Lucid Rush:** активируется при заполнении LucidMeter (0→100), +50 за удачное уклонение/парирование. При активации: замедление времени + 3 QTE с комбо. Каждое успешное QTE: +50% к урону (до +150%). Штраф за провал — стан игрока на 2 сек.
+**Combat system:**
+- Light combo — fast light attacks
+- Heavy combo — slow heavy attacks
+- Dodge — accompanied by slow-mo
+- Parry — accompanied by slow-mo
+- **Lucid Rush:** activates when LucidMeter is full (0→100), +50 for successful dodge/parry. On activation: time slowdown + 3 QTE with combos. Each successful QTE: +50% damage (up to +150%). Penalty for failure — player stun for 2 sec.
 
 ![NightmareLevel](images/Scenes/NightmareLevel.png)
 
-| Категория | Содержимое |
-|-----------|------------|
-| **Механики** | Malbers Контроллер игрока, Malbers NPC, QTE система, Комбо система |
-| **Персонажи** | Lunoris, Лёгкий враг ×2, Ghost, (Creature — опционально) |
-| **Ресурсы** | Lucid Points, Lucid Meter |
-| **UI** | Окно паузы, Окна настроек, Панель ресурсов, Бар Lucid Meter, Бар HP, QTE окно|
+| Category | Contents |
+|----------|----------|
+| **Mechanics** | Malbers Player Controller, Malbers NPC, QTE system, Combo system |
+| **Characters** | Lunoris, Light enemy ×2, Ghost, (Creature — optional) |
+| **Resources** | Lucid Points, Lucid Meter |
+| **UI** | Pause menu, Settings windows, Resource panel, Lucid Meter Bar, HP Bar, QTE window |
 
 ---
 
-## 👤 Персонажи/Сущности
+## 👤 Characters/Entities
 
-> 📁 Подробнее: [characters/](characters/index.md)
+> 📁 More details: [characters/](characters/index.md)
 
-| Персонаж | Описание | Сцены |
-|----------|----------|-------|
-| [Lunora/Lunoris/Kurtam](characters/lunora.md) | Главная героиня, две формы + форма животного | Все |
-| [Dog](characters/dog.md) | Компаньон главной героини | DreamHub, Tutorial |
-| [Chevrolet Impala 1967](characters/impala.md) | Машина игрока | Car Level |
-| [Лёгкий враг](characters/light-enemy.md) | Хуманоид-плейсхолдер, случайное оружие | Nightmare Level |
-| [Creature](characters/creature.md) | Сильный противник, ближний + дальний бой | Nightmare Level |
-| [Ghost](characters/ghost.md) | Летающий враг-плейсхолдер | Nightmare Level |
-
----
-
-## 💎 Ресурсы
-- **Loneliness Bar** — шкала одиночества нигде не используется.
-- **Stress Bar** — шкала стресса (используется только в 2.5D уровне). Накапливается только при получении урона, за хит 35 единиц. Влияет на то куда попадет персонаж при смерти в 2.5D уровне
-- **Echo Shard** — осколки эха, коллекционный ресурс. Можно достать из сундука в 2.5D уровне. Нигде не используется.
-- **Lucid Points** — очки осознанности, зарабатываются в Car Level на верхнем уровне дороги и за успешные действия. Просто накапливается и нигде не используется.
-- **Lucid Meter** — шкала осознанности в бою (0→100). +50 за удачное уклонение/парирование. При заполнении активирует [Lucid Rush](mechanics/lucid-rush.md).
+| Character | Description | Scenes |
+|-----------|-------------|--------|
+| [Lunora/Lunoris/Kurtam](characters/lunora.md) | Main heroine, two forms + animal form | All |
+| [Dog](characters/dog.md) | Main heroine's companion | DreamHub, Tutorial |
+| [Chevrolet Impala 1967](characters/impala.md) | Player's car | Car Level |
+| [Light enemy](characters/light-enemy.md) | Humanoid placeholder, random weapon | Nightmare Level |
+| [Creature](characters/creature.md) | Strong opponent, melee + ranged combat | Nightmare Level |
+| [Ghost](characters/ghost.md) | Flying enemy placeholder | Nightmare Level |
 
 ---
 
-## ⚙️ Механики
-
-> 📁 Подробнее: [mechanics/](mechanics/index.md)
-
-### Контроллеры
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Гибридный контроллер](mechanics/hybrid-controller.md) | От 1 и 3 лица, без боя | DayHome, DreamHub, NightmareHub, Elar |
-| [Malbers контроллер](mechanics/malbers-controller.md) | Боевой, продвинутый Locomotion | Tutorial, Nightmare Level |
-| [Контроллер машины](mechanics/car-controller.md) | Реалистичная физика | Car Level |
-
-### Боевые системы
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Комбо система](mechanics/combo-system.md) | Light/Heavy атаки | Nightmare Level |
-| [Lucid Rush](mechanics/lucid-rush.md) | Ультимативная способность | Nightmare Level |
-| [QTE система](mechanics/qte-system.md) | Quick Time Events | Car Level, Nightmare Level |
-
-### NPC и AI
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Простой NPC](mechanics/simple-npc.md) | Следование за игроком | DreamHub |
-| [Malbers NPC](mechanics/malbers-npc.md) | Продвинутый AI | Tutorial, Nightmare Level |
-
-### Взаимодействия
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Диалоговая система](mechanics/dialogue-system.md) | Диалоги с объектами/NPC | Хабы, Tutorial |
-| [Система интеракций](mechanics/interaction-system.md) | Взаимодействие с объектами | Все хабы |
-| [Prompt система](mechanics/prompt-system.md) | Подсказки для интеракций | Все |
-
-### Мир и окружение
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Open World](mechanics/open-world.md) | Динамическая загрузка сегментов | Elar |
-| [Погода](mechanics/weather.md) | Cozy Weather | Elar |
-| [Генерация дороги](mechanics/road-generation.md) | Процедурная и мануальная | Car Level |
-
-### Катсцены
-| Механика | Описание | Сцены |
-|----------|----------|-------|
-| [Катсцена кровати](mechanics/bed-cutscene.md) | Переход между мирами | DayHome, DreamHub |
-| [Катсцена балкона](mechanics/balcony-cutscene.md) | *(TODO)* | DreamHub |
-| [Аниматор кровати](mechanics/bed-animator.md) | Анимация кровати | DayHome, DreamHub |
-
-### Дебаг
-| Механика | Сцены |
-|----------|-------|
-| [Дебаг телепорт](mechanics/debug-teleport.md) | Elar |
+## 💎 Resources
+- **Loneliness Bar** — loneliness meter, not used anywhere.
+- **Stress Bar** — stress meter (used only in 2.5D level). Accumulates only when taking damage, 35 units per hit. Affects where the character ends up upon death in 2.5D level
+- **Echo Shard** — echo shards, collectible resource. Can be obtained from chests in 2.5D level. Not used anywhere.
+- **Lucid Points** — lucidity points, earned in Car Level on the upper road level and for successful actions. Just accumulates and is not used anywhere.
+- **Lucid Meter** — lucidity meter in combat (0→100). +50 for successful dodge/parry. When full, activates [Lucid Rush](mechanics/lucid-rush.md).
 
 ---
 
-## 🖥️ UI окна
-- Главное меню 
+## ⚙️ Mechanics
+
+> 📁 More details: [mechanics/](mechanics/index.md)
+
+### Controllers
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Hybrid controller](mechanics/hybrid-controller.md) | 1st and 3rd person, no combat | DayHome, DreamHub, NightmareHub, Elar |
+| [Malbers controller](mechanics/malbers-controller.md) | Combat, advanced Locomotion | Tutorial, Nightmare Level |
+| [Car controller](mechanics/car-controller.md) | Realistic physics | Car Level |
+
+### Combat Systems
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Combo system](mechanics/combo-system.md) | Light/Heavy attacks | Nightmare Level |
+| [Lucid Rush](mechanics/lucid-rush.md) | Ultimate ability | Nightmare Level |
+| [QTE system](mechanics/qte-system.md) | Quick Time Events | Car Level, Nightmare Level |
+
+### NPC and AI
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Simple NPC](mechanics/simple-npc.md) | Following the player | DreamHub |
+| [Malbers NPC](mechanics/malbers-npc.md) | Advanced AI | Tutorial, Nightmare Level |
+
+### Interactions
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Dialogue system](mechanics/dialogue-system.md) | Dialogues with objects/NPCs | Hubs, Tutorial |
+| [Interaction system](mechanics/interaction-system.md) | Interaction with objects | All hubs |
+| [Prompt system](mechanics/prompt-system.md) | Interaction hints | All |
+
+### World and Environment
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Open World](mechanics/open-world.md) | Dynamic segment loading | Elar |
+| [Weather](mechanics/weather.md) | Cozy Weather | Elar |
+| [Road generation](mechanics/road-generation.md) | Procedural and manual | Car Level |
+
+### Cutscenes
+| Mechanic | Description | Scenes |
+|----------|-------------|--------|
+| [Bed cutscene](mechanics/bed-cutscene.md) | Transition between worlds | DayHome, DreamHub |
+| [Balcony cutscene](mechanics/balcony-cutscene.md) | *(TODO)* | DreamHub |
+| [Bed animator](mechanics/bed-animator.md) | Bed animation | DayHome, DreamHub |
+
+### Debug
+| Mechanic | Scenes |
+|----------|--------|
+| [Debug teleport](mechanics/debug-teleport.md) | Elar |
+
+---
+
+## 🖥️ UI Windows
+- Main menu 
 
   ![MainMenu](images/UI/MainMenu.png)
 
-- Окно паузы 
+- Pause menu 
 
   ![PauseMenu](images/UI/PauseMenu.png)
 
-- Окна настроек - графика и звуки
+- Settings windows - graphics and sound
 
   ![Settings_Graphics](images/UI/Settings_Graphics.png)
 
   ![Settings_Sound](images/UI/Settings_Sound.png)
 
-- Квестовая панель
+- Quest panel
 
   ![QuestPanel](images/UI/QuestPanel.png)
 
-- Панель ресурсов - включает в себя Loneliness Bar, Stress Bar, Echo Shard UI, Lucid Points UI
+- Resource panel - includes Loneliness Bar, Stress Bar, Echo Shard UI, Lucid Points UI
 
   ![ResourcePanel](images/UI/ResourcePanel.png)
 
-- Диалоговое окно
+- Dialogue window
 
   ![DialogWindow](images/UI/DialogWindow.png)
 
-- Бар Lucid Meter
+- Lucid Meter Bar
 
   ![LucidMeter](images/UI/LucidMeter.png)
 
-- Бар HP
+- HP Bar
 
   ![HPBar](images/UI/HPBar.png)
 
-- Prompt панель - элемент на экране который показывает на какую кнопку нажать чтобы повзаимодействовать и с чем
+- Prompt panel - screen element that shows which button to press to interact and with what
 
   ![PromptPanel](images/UI/PromptPanel.png)
 
-- Выбор уровней
+- Level select
 
   ![LevelSelect](images/UI/LevelSelect.png)
 
-- Дебаг телепорт
+- Debug teleport
 
   ![DebugTeleport](images/UI/DebugTeleport.png)
 
-- QTE окно
+- QTE window
 
   ![QTEWindow](images/UI/QTEWindow.png)
 
-- UI машины - спидометры и т.д.
+- Car UI - speedometers, etc.
 
   ![CarUI](images/UI/CarUI.png)
 

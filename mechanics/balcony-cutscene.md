@@ -1,21 +1,21 @@
-# Катсцена балкона
+# Balcony Cutscene
 
-> Катсцена на балконе в DreamHub
-
----
-
-## Описание
-
-*(TODO: описать что происходит в катсцене)*
+> Cutscene on the balcony in DreamHub
 
 ---
 
-## Где используется
+## Description
 
-| Сцена |
+*(TODO: describe what happens in the cutscene)*
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | DreamHub |
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

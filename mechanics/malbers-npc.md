@@ -1,41 +1,41 @@
 # Malbers NPC
 
-> Продвинутый NPC с системами состояний
+> Advanced NPC with state systems
 
 ---
 
-## Описание
+## Description
 
-NPC-контроллер от библиотеки Malbers Animations. Поддерживает сложные поведенческие паттерны через систему состояний.
-
----
-
-## Возможности
-
-- Система состояний (State Machine)
-- Продвинутый AI
-- Боевое поведение
-- Патрулирование
-- Преследование
+NPC controller from Malbers Animations library. Supports complex behavioral patterns through state system.
 
 ---
 
-## Где используется
+## Features
 
-| Сцена | NPC |
+- State system (State Machine)
+- Advanced AI
+- Combat behavior
+- Patrolling
+- Chasing
+
+---
+
+## Where Used
+
+| Scene | NPC |
 |-------|-----|
-| Tutorial | Dog (сбор ресурсов) |
-| Nightmare Level | Лёгкий враг, Creature, Ghost |
+| Tutorial | Dog (resource collection) |
+| Nightmare Level | Light enemy, Creature, Ghost |
 
 ---
 
-## Связанные персонажи
+## Related Characters
 
 - [Dog](../characters/dog.md)
-- [Лёгкий враг](../characters/light-enemy.md)
+- [Light Enemy](../characters/light-enemy.md)
 - [Creature](../characters/creature.md)
 - [Ghost](../characters/ghost.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

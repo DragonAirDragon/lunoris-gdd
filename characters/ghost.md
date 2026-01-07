@@ -1,36 +1,36 @@
 # Ghost
 
-> Плейсхолдер летающего врага
+> Flying enemy placeholder
 
 ---
 
-## Описание
+## Description
 
-Летающий противник, используется как плейсхолдер для будущих воздушных врагов.
-
----
-
-## Характеристики
-
-| Параметр | Значение |
-|----------|----------|
-| **Тип** | Летающий |
-| **Контроллер** | Malbers NPC |
+Flying enemy, used as a placeholder for future aerial enemies.
 
 ---
 
-## Где появляется
+## Stats
 
-| Сцена | Количество |
-|-------|------------|
+| Parameter | Value |
+|-----------|-------|
+| **Type** | Flying |
+| **Controller** | Malbers NPC |
+
+---
+
+## Where It Appears
+
+| Scene | Count |
+|-------|-------|
 | Nightmare Level | 1× |
 
 ---
 
-## Поведение
+## Behavior
 
-*(TODO: описать паттерны атак и движения)*
+*(TODO: describe attack and movement patterns)*
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+← [All Characters](index.md) | [Back to GDD](../index.md)

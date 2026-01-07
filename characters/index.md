@@ -1,27 +1,27 @@
-# Персонажи и Сущности
+# Characters and Entities
 
-Все игровые персонажи и сущности в Lunoris.
-
----
-
-## Игровые персонажи
-
-| Персонаж | Тип | Сцены |
-|----------|-----|-------|
-| [Lunora/Lunoris](lunora.md) | Главный герой | Все |
-| [Dog](dog.md) | Компаньон | DreamHub, Tutorial |
-| [Chevrolet Impala](impala.md) | Транспорт | Car Level |
+All game characters and entities in Lunoris.
 
 ---
 
-## Враги
+## Playable Characters
 
-| Враг | Тип | Сцены |
-|------|-----|-------|
-| [Лёгкий враг](light-enemy.md) | Хуманоид | Nightmare Level |
-| [Creature](creature.md) | Хуманоид (сильный) | Nightmare Level |
-| [Ghost](ghost.md) | Летающий | Nightmare Level |
+| Character | Type | Scenes |
+|-----------|------|--------|
+| [Lunora/Lunoris](lunora.md) | Main Hero | All |
+| [Dog](dog.md) | Companion | DreamHub, Tutorial |
+| [Chevrolet Impala](impala.md) | Vehicle | Car Level |
 
 ---
 
-← [Вернуться к GDD](../index.md)
+## Enemies
+
+| Enemy | Type | Scenes |
+|-------|------|--------|
+| [Light Enemy](light-enemy.md) | Humanoid | Nightmare Level |
+| [Creature](creature.md) | Humanoid (strong) | Nightmare Level |
+| [Ghost](ghost.md) | Flying | Nightmare Level |
+
+---
+
+← [Back to GDD](../index.md)

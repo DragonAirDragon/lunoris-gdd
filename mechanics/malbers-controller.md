@@ -1,39 +1,39 @@
-# Malbers контроллер игрока
+# Malbers Player Controller
 
-> Боевой контроллер с продвинутым Locomotion
-
----
-
-## Описание
-
-Контроллер от внешней библиотеки Malbers Animations. Включает боевые механики и продвинутую систему передвижения.
+> Combat controller with advanced Locomotion
 
 ---
 
-## Возможности
+## Description
 
-- **Light комбо** — быстрые лёгкие атаки
-- **Heavy комбо** — медленные тяжёлые атаки
-- **Уклонение** — с эффектом слоу-мо
-- **Парирование** — с эффектом слоу-мо
-- **Продвинутый Locomotion** — плавные переходы между анимациями
+Controller from external Malbers Animations library. Includes combat mechanics and advanced movement system.
 
 ---
 
-## Где используется
+## Features
 
-| Сцена | Персонаж |
+- **Light combo** — fast light attacks
+- **Heavy combo** — slow heavy attacks
+- **Dodge** — with slow-mo effect
+- **Parry** — with slow-mo effect
+- **Advanced Locomotion** — smooth transitions between animations
+
+---
+
+## Where Used
+
+| Scene | Character |
 |-------|----------|
 | Tutorial | Lunoris |
 | Nightmare Level | Lunoris |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Комбо система](combo-system.md)
+- [Combo System](combo-system.md)
 - [Lucid Rush](lucid-rush.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

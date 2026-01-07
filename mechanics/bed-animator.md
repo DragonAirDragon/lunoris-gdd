@@ -1,28 +1,28 @@
-# Аниматор кровати
+# Bed Animator
 
-> Анимация кровати при взаимодействии
-
----
-
-## Описание
-
-Аниматор для кровати, используемый при активации катсцены перехода между мирами.
+> Bed animation on interaction
 
 ---
 
-## Где используется
+## Description
 
-| Сцена |
+Animator for the bed, used when activating the world transition cutscene.
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | DayHome |
 | DreamHub |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Катсцена кровати](bed-cutscene.md)
+- [Bed Cutscene](bed-cutscene.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

@@ -1,28 +1,28 @@
-# Система интеракций
+# Interaction System
 
-> Взаимодействие с объектами в мире
-
----
-
-## Описание
-
-Система, позволяющая игроку взаимодействовать с объектами окружения: открывать двери, подбирать предметы, активировать переходы между сценами.
+> Interacting with objects in the world
 
 ---
 
-## Типы интеракций
+## Description
 
-| Тип | Описание | Пример |
-|-----|----------|--------|
-| **Диалог** | Запускает диалоговое окно | Картина, виолончель |
-| **Переход** | Загружает другую сцену | Кровать, зеркало |
-| **Сбор** | Подбирает предмет | Сундук (Echo Shard) |
+A system that allows the player to interact with environment objects: open doors, pick up items, activate scene transitions.
 
 ---
 
-## Где используется
+## Interaction Types
 
-| Сцена |
+| Type | Description | Example |
+|------|-------------|--------|
+| **Dialogue** | Opens dialogue window | Painting, cello |
+| **Transition** | Loads another scene | Bed, mirror |
+| **Collection** | Picks up an item | Chest (Echo Shard) |
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | DayHome |
 | DreamHub |
@@ -31,11 +31,11 @@
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Диалоговая система](dialogue-system.md)
-- [Prompt система](prompt-system.md)
+- [Dialogue System](dialogue-system.md)
+- [Prompt System](prompt-system.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

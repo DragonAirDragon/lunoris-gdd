@@ -1,52 +1,52 @@
-# Open World система
+﻿# Open World System
 
-> Динамическая загрузка сегментов мира
-
----
-
-## Описание
-
-Система для открытого мира Elar. Сегменты мира загружаются динамически при приближении игрока.
+> Dynamic world segment loading
 
 ---
 
-## Сегменты
+## Description
 
-Мир Elar разделён на 9 сегментов:
-
-| # | Сегмент | Атмосфера |
-|---|---------|-----------|
-| 1 | GardenOfAnger | Гроза, молнии, ветер |
-| 2 | GardenOfElarion | Полуденный свет, магическое мерцание |
-| 3 | GardenOfFear | Мрачная ночь, тьма, холодная дымка |
-| 4 | GardenOfHope | Рассвет, золотистый свет, птицы |
-| 5 | GardenOfJoy | Солнечный день, чистое небо |
-| 6 | GardenOfSadness | Полночь, дождь, туман |
-| 7 | GardenOfSerenity | Ясный день, облака, бриз |
-| 8 | GardenOfStillness | Утро, застывший воздух, дымка |
-| 9 | GardenOfWonder | Полночь, звёзды, светящиеся частицы |
+System for Elar open world. World segments are loaded dynamically as the player approaches.
 
 ---
 
-## Загрузка
+## Segments
 
-Сегменты загружаются при приближении игрока и выгружаются при удалении.
+Elar world is divided into 9 segments:
+
+| # | Segment | Atmosphere |
+|---|---------|------------|
+| 1 | GardenOfAnger | Storm, lightning, wind |
+| 2 | GardenOfElarion | Midday light, magical shimmer |
+| 3 | GardenOfFear | Gloomy night, darkness, cold haze |
+| 4 | GardenOfHope | Dawn, golden light, birds |
+| 5 | GardenOfJoy | Sunny day, clear sky |
+| 6 | GardenOfSadness | Midnight, rain, fog |
+| 7 | GardenOfSerenity | Clear day, clouds, breeze |
+| 8 | GardenOfStillness | Morning, still air, haze |
+| 9 | GardenOfWonder | Midnight, stars, glowing particles |
 
 ---
 
-## Где используется
+## Loading
 
-| Сцена |
+Segments are loaded when the player approaches and unloaded when moving away.
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | Elar |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Погода (Cozy Weather)](weather.md)
-- [Дебаг телепорт](debug-teleport.md)
+- [Weather (Cozy Weather)](weather.md)
+- [Debug Teleport](debug-teleport.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+ [All Mechanics](index.md) | [Back to GDD](../index.md)

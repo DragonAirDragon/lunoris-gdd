@@ -1,29 +1,29 @@
-# Простой NPC
+# Simple NPC
 
-> NPC который следует за игроком
-
----
-
-## Описание
-
-Базовая система NPC для компаньонов. Следует за игроком на определённой дистанции.
+> NPC that follows the player
 
 ---
 
-## Поведение
+## Description
 
-- Следует за игроком
-- Смотрит на игрока
-- Поддерживает дистанцию
+Basic NPC system for companions. Follows the player at a certain distance.
 
 ---
 
-## Где используется
+## Behavior
 
-| Сцена | NPC |
+- Follows the player
+- Looks at the player
+- Maintains distance
+
+---
+
+## Where Used
+
+| Scene | NPC |
 |-------|-----|
 | DreamHub | Dog |
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

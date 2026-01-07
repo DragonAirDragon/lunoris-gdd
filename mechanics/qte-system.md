@@ -1,43 +1,43 @@
-# QTE система
+# QTE System
 
-> Quick Time Events — быстрые нажатия клавиш
-
----
-
-## Описание
-
-Система быстрых событий, требующих своевременного нажатия определённых клавиш.
+> Quick Time Events — quick key presses
 
 ---
 
-## Использование по сценам
+## Description
+
+Quick event system requiring timely pressing of specific keys.
+
+---
+
+## Usage by Scene
 
 ### Car Level
 
-| Триггер | QTE | Награда |
-|---------|-----|---------|
-| Проезд близко мимо препятствия | 2 клавиши | Буст |
-| Шанс появления | 50% | — |
+| Trigger | QTE | Reward |
+|---------|-----|--------|
+| Passing close to obstacle | 2 keys | Boost |
+| Spawn chance | 50% | — |
 
 ### Nightmare Level
 
-| Триггер | QTE | Награда |
-|---------|-----|---------|
-| Lucid Rush | 3 комбо | +50% урона за каждый |
+| Trigger | QTE | Reward |
+|---------|-----|--------|
+| Lucid Rush | 3 combos | +50% damage each |
 
 ---
 
 ## UI
 
-*(TODO: добавить скриншот QTE окна)*
+*(TODO: add QTE window screenshot)*
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Контроллер машины](car-controller.md)
+- [Car Controller](car-controller.md)
 - [Lucid Rush](lucid-rush.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

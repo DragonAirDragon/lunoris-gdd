@@ -1,48 +1,48 @@
 # Chevrolet Impala 1967
 
-> Машина, которой управляет игрок в гоночном уровне
+> The car the player controls in the racing level
 
 ---
 
-## Описание
+## Description
 
-Классический американский автомобиль Chevrolet Impala 1967 года. Игрок управляет машиной в режиме раннера на уровне Car Level.
+A classic American car, 1967 Chevrolet Impala. The player controls the car in runner mode in the Car Level.
 
 ---
 
-## Где появляется
+## Where It Appears
 
-| Сцена | Роль |
+| Scene | Role |
 |-------|------|
-| **DreamHub** | Интерактивный объект на улице (вход в Car Level) |
-| **Car Level** | Управляемый транспорт |
+| **DreamHub** | Interactive object on the street (entrance to Car Level) |
+| **Car Level** | Controllable vehicle |
 
 ---
 
-## Управление
+## Controls
 
-- **Маневрирование** — уклонение от препятствий
-- **Дрифт** — резкие повороты
-- **Мигание светом** — заставляет машины на левой полосе уступить
-- **Буст** — ускорение после успешного QTE
-
----
-
-## Система буста
-
-| Уровень | Скорость | Условие |
-|---------|----------|---------|
-| 1 | 110% | Успешное QTE |
-| 2 | 130% | Успешное QTE |
-| 3 | 170% | Успешное QTE |
-| MAX | Верхний уровень | 10 сек без препятствий + Lucid Points |
+- **Maneuvering** — avoiding obstacles
+- **Drift** — sharp turns
+- **Flashing lights** — makes cars in the left lane yield
+- **Boost** — acceleration after successful QTE
 
 ---
 
-## Контроллер
+## Boost System
 
-Использует **Реалистичный контроллер машины** — основан на реальных физических формулах.
+| Level | Speed | Condition |
+|-------|-------|-----------|
+| 1 | 110% | Successful QTE |
+| 2 | 130% | Successful QTE |
+| 3 | 170% | Successful QTE |
+| MAX | Upper level | 10 sec without obstacles + Lucid Points |
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+## Controller
+
+Uses **Realistic car controller** — based on real physics formulas.
+
+---
+
+← [All Characters](index.md) | [Back to GDD](../index.md)

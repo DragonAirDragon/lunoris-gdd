@@ -1,38 +1,38 @@
-# Лёгкий враг
+# Light Enemy
 
-> Хуманоидный плейсхолдер врага
-
----
-
-## Описание
-
-Базовый враг в игре. Является плейсхолдером для будущих типов противников.
+> Humanoid enemy placeholder
 
 ---
 
-## Характеристики
+## Description
 
-| Параметр | Значение |
-|----------|----------|
-| **HP** | Мало |
-| **Урон** | Небольшой |
-| **Оружие** | Случайное (при спавне) |
-| **Контроллер** | Malbers NPC |
+Basic enemy in the game. Serves as a placeholder for future enemy types.
 
 ---
 
-## Где появляется
+## Stats
 
-| Сцена | Количество |
-|-------|------------|
+| Parameter | Value |
+|-----------|-------|
+| **HP** | Low |
+| **Damage** | Low |
+| **Weapon** | Random (on spawn) |
+| **Controller** | Malbers NPC |
+
+---
+
+## Where It Appears
+
+| Scene | Count |
+|-------|-------|
 | Nightmare Level | 2× |
 
 ---
 
-## Поведение
+## Behavior
 
-*(TODO: описать паттерны атак)*
+*(TODO: describe attack patterns)*
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+← [All Characters](index.md) | [Back to GDD](../index.md)

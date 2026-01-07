@@ -1,48 +1,48 @@
-# Комбо система
+# Combo System
 
-> Система боевых комбо-атак
-
----
-
-## Описание
-
-Система комбинированных атак для боевого контроллера Malbers.
+> Combat combo attack system
 
 ---
 
-## Типы атак
+## Description
 
-| Тип | Описание | Скорость | Урон |
-|-----|----------|----------|------|
-| **Light** | Лёгкие атаки | Быстрые | Низкий |
-| **Heavy** | Тяжёлые атаки | Медленные | Высокий |
+Combined attack system for Malbers combat controller.
 
 ---
 
-## Защитные действия
+## Attack Types
 
-| Действие | Эффект |
-|----------|--------|
-| **Уклонение** | Избегание атаки + слоу-мо |
-| **Парирование** | Блок атаки + слоу-мо |
-
-Успешное уклонение/парирование: **+50 к Lucid Meter**
+| Type | Description | Speed | Damage |
+|------|-------------|-------|--------|
+| **Light** | Light attacks | Fast | Low |
+| **Heavy** | Heavy attacks | Slow | High |
 
 ---
 
-## Где используется
+## Defensive Actions
 
-| Сцена |
+| Action | Effect |
+|--------|--------|
+| **Dodge** | Avoid attack + slow-mo |
+| **Parry** | Block attack + slow-mo |
+
+Successful dodge/parry: **+50 to Lucid Meter**
+
+---
+
+## Where Used
+
+| Scene |
 |-------|
 | Nightmare Level |
 
 ---
 
-## Связанные механики
+## Related Mechanics
 
-- [Malbers контроллер](malbers-controller.md)
+- [Malbers Controller](malbers-controller.md)
 - [Lucid Rush](lucid-rush.md)
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

@@ -1,27 +1,27 @@
-# Гибридный контроллер игрока
+# Hybrid Player Controller
 
-> Контроллер от 1 и 3 лица без боевых механик
-
----
-
-## Описание
-
-Основной контроллер персонажа для исследовательских сцен. Позволяет переключаться между видом от первого и третьего лица.
+> 1st and 3rd person controller without combat mechanics
 
 ---
 
-## Режимы камеры
+## Description
 
-| Режим | Описание |
-|-------|----------|
-| **От 1 лица** | Камера из глаз персонажа |
-| **От 3 лица** | Камера за спиной персонажа |
+Main character controller for exploration scenes. Allows switching between first and third person view.
 
 ---
 
-## Где используется
+## Camera Modes
 
-| Сцена | Персонаж |
+| Mode | Description |
+|------|-------------|
+| **1st person** | Camera from character's eyes |
+| **3rd person** | Camera behind character |
+
+---
+
+## Where Used
+
+| Scene | Character |
 |-------|----------|
 | DayHome | Lunora |
 | DreamHub | Lunoris |
@@ -30,10 +30,10 @@
 
 ---
 
-## Управление
+## Controls
 
-*(TODO: описать управление)*
+*(TODO: describe controls)*
 
 ---
 
-← [Все механики](index.md) | [Вернуться к GDD](../index.md)
+← [All Mechanics](index.md) | [Back to GDD](../index.md)

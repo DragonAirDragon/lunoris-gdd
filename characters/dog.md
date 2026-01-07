@@ -1,37 +1,37 @@
 # Dog
 
-> Компаньон главной героини
+> Main heroine's companion
 
 ---
 
-## Описание
+## Description
 
-Собака-компаньон, которая сопровождает Lunoris в мире снов.
-
----
-
-## Поведение по сценам
-
-| Сцена | Поведение | Контроллер |
-|-------|-----------|------------|
-| **DayHome** | Спит (интерактивный объект) | — |
-| **DreamHub** | Следует за игроком, смотрит на него | Простой NPC |
-| **Tutorial** | Бегает на заднем фоне, подбирает ресурсы | Malbers NPC |
+A companion dog that accompanies Lunoris in the dream world.
 
 ---
 
-## Механики
+## Behavior by Scene
 
-- **Следование** — следует за игроком на определённой дистанции
-- **Взгляд** — поворачивается и смотрит на игрока
-- **Сбор ресурсов** — подбирает предметы на уровне Tutorial
-
----
-
-## Визуал
-
-*(TODO: добавить скриншот)*
+| Scene | Behavior | Controller |
+|-------|----------|------------|
+| **DayHome** | Sleeping (interactive object) | — |
+| **DreamHub** | Follows the player, looks at them | Simple NPC |
+| **Tutorial** | Runs in the background, collects resources | Malbers NPC |
 
 ---
 
-← [Все персонажи](index.md) | [Вернуться к GDD](../index.md)
+## Mechanics
+
+- **Following** — follows the player at a certain distance
+- **Looking** — turns and looks at the player
+- **Resource collection** — picks up items in the Tutorial level
+
+---
+
+## Visuals
+
+*(TODO: add screenshot)*
+
+---
+
+← [All Characters](index.md) | [Back to GDD](../index.md)
