@@ -20,35 +20,35 @@
 
 **Сцены:**
 - DayHome - реальный мир, обычный дом в вечерней атмосфере, пока что это стартовая точка игры где есть несколько диалоговых взаимодействий с предметами. Отсюда можно попасть через взаимодействие с кроватью в любой уровень кроме CarLevel.
-  ![[images/Scenes/DayHome.png]]
+  ![DayHome](images/Scenes/DayHome.png)
 - DreamHub - мир снов/фантазий, искаженный дом в фиолетовых тонах, здесь появляется активный компаньон - Dog который следует за игроком. Отсюда можно попасть через зеркало в NightmareHub, через предметы в уровни Снов и через взаимодействие с кроватью в любой уровень, а также в секретный уровень Car Level.
-  ![[images/Scenes/DreamHub.png]]
+  ![DreamHub](images/Scenes/DreamHub.png)
 - NightmareHub - мир кошмаров/страхов, искаженный дом в красных тонах. Отсюда можно попасть через зеркало в DreamHub, через предметы в уровни Кошмаров.
-  ![[images/Scenes/NightmareHub.png]]
+  ![NightmareHub](images/Scenes/NightmareHub.png)
 - Elar - уровень с открытым миром, на данный момент сюда можно попасть только из редактора Unity. Здесь мир разделен на 9 сегментов, у каждого сегмента своя атмосфера и погода, но на данный момент как такого левел дизайна там нет, просто плоская земля:
   1. GardenOfAnger 
-    ![[images/Elar/GardenOfAnger.png]]
+    ![GardenOfAnger](images/Elar/GardenOfAnger.png)
   2. GardenOfElarion
-    ![[images/Elar/GardenOfElarion.png]]
+    ![GardenOfElarion](images/Elar/GardenOfElarion.png)
   3. GardenOfFear
-    ![[images/Elar/GardenOfFear.png]]
+    ![GardenOfFear](images/Elar/GardenOfFear.png)
   4. GardenOfHope
-    ![[images/Elar/GardenOfHope.png]] 
+    ![GardenOfHope](images/Elar/GardenOfHope.png) 
   5. GardenOfJoy 
-    ![[images/Elar/GardenOfJoy.png]]
+    ![GardenOfJoy](images/Elar/GardenOfJoy.png)
   6. GardenOfSadness 
-    ![[images/Elar/GardenOfSadness.png]]
+    ![GardenOfSadness](images/Elar/GardenOfSadness.png)
   7. GardenOfSerenity
-    ![[images/Elar/GardenOfSerenity.png]]
+    ![GardenOfSerenity](images/Elar/GardenOfSerenity.png)
   8. GardenOfStillnes 
-    ![[images/Elar/GardenOfStillness.png]]
+    ![GardenOfStillness](images/Elar/GardenOfStillness.png)
   9. GardenOfWonder
-    ![[images/Elar/GardenOfWonder.png]]
+    ![GardenOfWonder](images/Elar/GardenOfWonder.png)
   Игрок может попасть на любой из этих сегментов просто ходя по миру (они как и в любой Open World игре загружаются в процессе если игрок рядом) или через дебаг функцию телепортации. 
 - Car Level - гоночный уровень стиле ранера, игрок управляет Chevrolet Impala, едет вперед и пытается не попасть в аварию посредством маневрирования/дрифта. Машины на левой полосе уступают если мигать светом или подъехать слишком близко. Если проезжать близко мимо препятствий коеми выступают другие машины с некоторой вероятностью появляется QTE если ты его прожимаешь машина буститься. Есть 3 уровня буста, которые ускоряют машинку, а если забуститься сверх этого машина попадает на верхний уровень дороги где нету препятствий и находятся Lunoris Points в качестве награды. Уровень заканчивается когда проходит время таймера, сейчас это 1000 секунд для дебага.
   Снизу картинки как выглядит первый уровень дороги и как выглядит второй уровень дороги
- ![[images/Scenes/CarLevel_1.png]]
- ![[images/Scenes/CarLevel_2.png]]
+ ![CarLevel_1](images/Scenes/CarLevel_1.png)
+ ![CarLevel_2](images/Scenes/CarLevel_2.png)
 
 **Персонажи/Сущности:**
 - Lunoris/Lunora - главная героиня игры, у неё есть две формы одна. Реальная - Lunora, и призрачная - Lunoris
