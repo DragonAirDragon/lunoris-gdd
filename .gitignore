@@ -1,0 +1,19 @@
+# .gitignore for GDD repository
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# Temp files
+*.tmp
+*.bak
+
+# Large video files (optional - remove if you want to track them)
+# *.mp4
+# *.mov
+# *.avi
